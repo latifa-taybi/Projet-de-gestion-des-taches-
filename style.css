@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #326786, #C0C0C0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+}
+
+.navbar img{
+    width:70px;
+    height:auto;
+}
+
+
+.navbar h1{
+    color: #e2e2e2; 
+    /* font-family: "Delius", cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.text {
+    margin-bottom: 20px;
+    color: #F5F5F5;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#main{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#btn{
+    background-color: #7495a8;
+    border-radius: 30px;
+    padding: 4vh 30vh;
+    border: 2px solid rgb(74, 81, 94);;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.form{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.form input,select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* .button{
+    grid-column: span 2 ;
+} */
+
+.button button{
+    margin-top:10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color:#7495a8;
+}
+tbody{
+    width: 100%;
+}
+
+/* #table-light th{
+    width: 100% !important;
+} */
